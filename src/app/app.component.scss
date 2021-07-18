@@ -1,0 +1,21 @@
+.wrapper {
+  margin: 0 auto;
+    .app-center {
+      width: 250px;
+      height: 150px;
+      margin: 0 auto;
+      background-image: url('../assets/img/Rock_Band.png');
+      background-size: cover;
+    }
+    .app-tittle {
+      font-size: 25px;
+      text-transform: uppercase;
+      text-align: center;
+      color: rgb(125, 151, 125);
+    }
+
+    .app-bands {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+}
