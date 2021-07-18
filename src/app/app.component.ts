@@ -16,6 +16,6 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.contentfulServ.logContent('6UIoRcXAJgGAU76Kk33sWw');
-    this.band$ = this.contentfulServ.getContent('7HLuFz17zrbOujJ0cfzTeZ')
+    // this.band$ = this.contentfulServ.getContent('7HLuFz17zrbOujJ0cfzTeZ')
   }
 }

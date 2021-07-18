@@ -21,8 +21,8 @@ export class ContentfulService {
       })
   }
 
-  getContent(contentId: string) {
+/*   getContent(contentId: string) {
     const promise = this.client.getEntry(contentId);
     return fromPromise(promise).map(entry => entry.fields)
-  }
+  } */
 }
